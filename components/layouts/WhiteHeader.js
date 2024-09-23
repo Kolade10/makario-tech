@@ -1,4 +1,5 @@
 import Link from "next/link"
+import PrimartButton from "../common/primaryButton"
 
 const WhiteHeader = ()=>{
     return(
@@ -25,7 +26,7 @@ const WhiteHeader = ()=>{
                         <Link href='#'>Contact Us</Link>
                         <div className="bg-[#1e1d1d] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                     </li>
-                    
+                    <PrimartButton href='#'>Get a Quote</PrimartButton>
                 </ul>
             </div>
         </div>

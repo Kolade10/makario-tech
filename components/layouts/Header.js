@@ -1,4 +1,5 @@
 import Link from "next/link"
+import PrimartButton from "../common/primaryButton"
 
 const Header = ()=>{
     return(
@@ -24,7 +25,7 @@ const Header = ()=>{
                     <Link href='#'>Contact Us</Link>
                     <div className="bg-[#fcfcfc] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
-                
+                <PrimartButton href='#'>Get a Quote</PrimartButton>
             </ul>
         </div>
     )
