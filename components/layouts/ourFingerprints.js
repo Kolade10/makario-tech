@@ -48,8 +48,8 @@ const OurFingerprints = () => {
               </div>
             ))}
           </div>
-          <div className="grid grid-flow-col justify-between items-center mt-[40px]">
-                <div className="grid grid-flow-col gap-[30px] items-center">
+          <div className="grid lg:grid-flow-col justify-between items-center mt-[40px]">
+                <div className="order-last lg:order-first grid grid-flow-col gap-[30px] items-center">
                     <Image
                     src='/images/makario.png'
                     width={150}
@@ -76,12 +76,12 @@ const OurFingerprints = () => {
                     quality={100}
                     />
                 </div>
-                <div className="grid grid-flow-col gap-[16px] items-center">
+                <div className="grid lg:grid-flow-col gap-0 lg:gap-[16px] items-center">
                     <div className="w-[100px] h-[3px] bg-[#1e1d1d] rounded-[50px]"></div>
-                    <p className="text-[48px] text-[#1e1d1d] font-bold">Our Partners</p>
+                    <p className="text-[36px] lg:text-[48px] text-[#1e1d1d] font-bold">Our Partners</p>
 
                 </div>
-          </div>
+            </div>
         </div>
       </div>
     );

@@ -8,3 +8,32 @@
 body{
   font-family: "Poppins", sans-serif;
 }
+/* Custom scrollbar styles for the .custom-scrollbar class */
+.custom-scrollbar {
+  overflow: auto; /* Make sure the element can scroll */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 50%; /* Rounded corners for the scrollbar thumb */
+  border: 3px solid #f1f1f1; /* Space around the thumb */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color when hovering over the scrollbar thumb */
+  }
+
+  /* Firefox scrollbar styling */
+  .custom-scrollbar {
+  scrollbar-width: thin; /* Thin scrollbar */
+  border-radius: 10px;
+  scrollbar-color: #eee #f1f1f100; /* Thumb color and track color */
+  }

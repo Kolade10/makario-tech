@@ -1,14 +1,19 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <div className="bg-[#1e1d1d] w-full py-[40px]">
-      <div className="max-w-[90%] text-[#fcfcfc] lg:max-w-[1440px] m-auto lg:px-[120px] grid grid-flow-col items-start">
+      <div className="max-w-[90%] text-[#fcfcfc] lg:max-w-[1440px] m-auto lg:px-[120px] grid lg:grid-flow-col items-start">
         <div className="grid gap-[20px] content-start max-w-[400px]">
-          <p className="text-white text-[50px] font-bold">LOGO</p>
-          <p className="text-[#fcfcfc] text-[17px] font-medium">
-          Makario Technology Solutions Company is an IT project management firm specializing in executing IT projects using innovative, everyday technology solutions. 
-          </p>
+            <Image
+            src='/images/logo.png'
+            alt="logo"
+            quality={100}
+            width={50}
+            height={50}
+            />
+            <p className="text-[#fcfcfc] text-[17px] font-medium">Makario Technology Solutions Company is an IT project management firm specializing in executing IT projects using innovative, everyday technology solutions. </p>
         </div>
 
         <div className="grid gap-[24px]">

@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const PreHeader = ()=>{
     return(
-        <div className="w-full bg-[#0f0e0e] py-3">
+        <div className="hidden lg:block w-full bg-[#0f0e0e] py-3">
             <div className="max-w-[90%] lg:max-w-[1440px] px-[120px] m-auto grid grid-flow-col justify-between items-center text-white"> 
                 <div className="grid grid-flow-col gap-[20px] items-center">
                     <div className="grid grid-flow-col items-center justify-start gap-[0.7em]">
