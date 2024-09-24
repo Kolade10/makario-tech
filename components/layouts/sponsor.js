@@ -1,8 +1,8 @@
 import Image from "next/image";
 const Sponsor = () =>{
     return(
-        // <div className="grid lg:grid-flow-col justify-between items-center mt-[40px]">
-            <div className="justify-center grid grid-flow-col gap-[30px] items-center">
+        // <div className="grid lg:grid-flow-col just5ify-between items-center mt-[40px]">
+            <div className="justify-between max-w-[90%] lg:max-w-[1440px] m-auto lg:px-[120px] grid grid-flow-col gap-[30px] items-center">
                 <Image
                 src='/images/logo-dummy.svg'
                 width={150}

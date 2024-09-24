@@ -1,4 +1,4 @@
-import PrimartButton from "./common/primaryButton";
+import PrimartButton from "../common/primaryButton";
 
 const GetQuote = () => {
   return (
