@@ -24,11 +24,11 @@ const Header = () => {
             {/* Desktop Menu */}
             <ul className="hidden lg:grid grid-flow-col gap-[24px] items-center">
             <li className="text-[#fcfcfc] text-[14px] font-semibold uppercase grid gap-[3px] group">
-                <Link href='#'>Home</Link>
+                <Link href='/'>Home</Link>
                 <div className="bg-[#fcfcfc] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
             </li>
             <li className="text-[#fcfcfc] text-[14px] font-semibold uppercase grid gap-[3px] group">
-                <Link href='#'>About Us</Link>
+                <Link href='/about'>About Us</Link>
                 <div className="bg-[#fcfcfc] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
             </li>
             <li className="text-[#fcfcfc] text-[14px] font-semibold uppercase grid gap-[3px] group">
@@ -101,10 +101,10 @@ const Header = () => {
             </div>
             <ul className="grid gap-6 text-center mt-10">
                 <li className="text-[#fcfcfc] text-[20px] font-semibold uppercase">
-                <Link href='#' onClick={toggleMenu}>Home</Link>
+                <Link href='/' onClick={toggleMenu}>Home</Link>
                 </li>
                 <li className="text-[#fcfcfc] text-[20px] font-semibold uppercase">
-                <Link href='#' onClick={toggleMenu}>About Us</Link>
+                <Link href='/about' onClick={toggleMenu}>About Us</Link>
                 </li>
                 <li className="text-[#fcfcfc] text-[20px] font-semibold uppercase">
                 <Link href='#' onClick={toggleMenu}>Services</Link>

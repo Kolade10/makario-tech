@@ -37,3 +37,13 @@ body{
   border-radius: 10px;
   scrollbar-color: #eee #f1f1f100; /* Thumb color and track color */
   }
+  /* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

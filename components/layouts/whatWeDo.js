@@ -1,5 +1,5 @@
 import Link from "next/link"
-
+import CustomCursorContainer from "../common/customCursor"
 const WhatWeDo = () =>{
     return(
         <div className="max-w-[90%] lg:max-w-[1440px] lg:px-[120px] m-auto grid gap-[60px] py-[40px] lg:py-[80px]">
@@ -10,6 +10,7 @@ const WhatWeDo = () =>{
                     <p className="text-[16px] text-[#61666f] max-w-[450px]">At Makario Technology Solutions, we specialize in delivering innovative IT project management services tailored to meet the unique needs of businesses and individuals across Nigeria. Our goal is to provide practical and scalable technology solutions that enhance security, connectivity, and efficiency.<br/><br/> With expertise across multiple domains, we ensure every project is executed with precision, using the latest technology to drive sustainable results.</p>
                 </div>
             </div>
+            <CustomCursorContainer>
             <div className="grid grid-flow-col max-w-full overflow-x-scroll custom-scrollbar justify-center lg:justify-start gap-y-[20px] pb-[30px]">
                 <div className="grid gap-[20px] content-between w-[250px] lg:pr-[50px] lg:mr-[50px] lg:border-r-[1px]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="75px" height="75px" viewBox="0 0 24 24"><g fill="none" stroke="#337ab7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1zm5 10a4 4 0 1 0 8 0a4 4 0 1 0-8 0"/><path d="M19 7v7a7 7 0 0 1-14 0V7m7 7h.01"/></g></svg>
@@ -61,6 +62,7 @@ const WhatWeDo = () =>{
                 </div>
 
             </div>
+            </CustomCursorContainer>
         </div>
     )
 }
