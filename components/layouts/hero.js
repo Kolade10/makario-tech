@@ -12,7 +12,7 @@ const Hero = () => {
         <p className="text-[#ffffff] text-[64px] font-semibold leading-[60px] text-center max-w-[900px] m-auto">
           The Future of Energy: Shaping a sustainable tomorrow
         </p>
-        <PrimartButton href="#">Get a Quote</PrimartButton>
+        <PrimartButton href="#" style='text-white '>Get a Quote</PrimartButton>
       </div>
     </div>
   );
