@@ -12,11 +12,13 @@ const About = () => {
     return (
         <Shell>
             <WhiteHeader/>
-            <AboutHero/>
+            <AboutHero>About Us</AboutHero>
             <Contact/>
             <Sponsor/>
             <AboutSection/>
-            <PortfolioSection/>
+            <div className="w-full py-[80px] lg:py-[120px] bg-black">
+                <PortfolioSection borderColor='border-[#45484f]'/>
+            </div>
             <GetQuote/>
         </Shell>
     );
