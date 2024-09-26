@@ -38,7 +38,7 @@ const Purchasing = () => {
                     >
                         <div className='grid lg:grid-flow-col gap-[60px] items-start'>
                             <p className={`text-[56px] font-bold leading-[40px] ${hoveredIndex === index ? 'text-[#3373ab]' : 'text-[#635d5d]'}`}>{step.number}</p>
-                            <p className="max-w-[580px] text-[36px] lg:text-[40px] text-[#1e1d1d] font-bold leading-[48px] max-w-[350px]">{step.title}</p>
+                            <p className="max-w-[380px] text-[36px] lg:text-[40px] text-[#1e1d1d] font-bold leading-[48px] max-w-[350px]">{step.title}</p>
                         </div>
                         <div className='grid lg:grid-flow-col gap-[60px] items-start'>
                             <p className="text-[16px] text-[#61666f] max-w-[450px]">{step.description}</p>
