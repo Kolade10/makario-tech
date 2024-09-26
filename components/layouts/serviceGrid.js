@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const ServiceGrid = () => {
     return (
-        <div className="grid grid-flow-col max-w-full overflow-x-scroll custom-scrollbar justify-center lg:justify-start gap-y-[20px] pb-[30px] gap-[60px] m-auto">
+        <div className="grid lg:grid-flow-col max-w-full overflow-x-scroll custom-scrollbar justify-center lg:justify-start gap-y-[20px] pb-[30px] gap-[60px] m-auto">
             <div className="grid content-between w-[300px] justify-items-center gap-[20px]">
                 <div className='h-[120px] w-[120px] grid justify-center items-center bg-[#337ab74d] hover:bg-[#337ab7] hover:text-white text-[#337ab7] rounded-[50%] duration-500 transition-all'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="75px" height="75px" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1zm5 10a4 4 0 1 0 8 0a4 4 0 1 0-8 0" /><path d="M19 7v7a7 7 0 0 1-14 0V7m7 7h.01" /></g></svg>

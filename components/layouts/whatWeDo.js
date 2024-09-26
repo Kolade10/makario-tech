@@ -6,7 +6,7 @@ const WhatWeDo = () =>{
             <div className="grid gap-[20px]">
                 <p className="text-[14px] text-[#1e1d1d] tracking-[3px] font-medium ">What We Do</p>
                 <div className="grid lg:grid-cols-2 justify-between gap-[20px] lg:gap-0 items-start">
-                    <p className="max-w-[580px] text-[36px] lg:text-[56px] text-[#1e1d1d] font-bold leading-[48px]">Proven products from the best brands</p>
+                    <p className="max-w-[580px] text-[27px] lg:text-[56px] text-[#1e1d1d] font-bold leading-[48px]">Proven products from the best brands</p>
                     <p className="text-[16px] text-[#61666f] max-w-[450px]">At Makario Technology Solutions, we specialize in delivering innovative IT project management services tailored to meet the unique needs of businesses and individuals across Nigeria. Our goal is to provide practical and scalable technology solutions that enhance security, connectivity, and efficiency.<br/><br/> With expertise across multiple domains, we ensure every project is executed with precision, using the latest technology to drive sustainable results.</p>
                 </div>
             </div>
