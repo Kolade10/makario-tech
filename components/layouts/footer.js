@@ -50,19 +50,22 @@ const Footer = () => {
           <p className="text-[24px] font-semibold ">Menu</p>
           <ul className="grid gap-[16px]">
             <li className="text-[17px] font-medium">
-              <Link href="#">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li className="text-[17px] font-medium">
-              <Link href="#">About Us</Link>
+              <Link href="/about">About Us</Link>
             </li>
             <li className="text-[17px] font-medium">
-              <Link href="#">Services</Link>
+              <Link href="/service">Services</Link>
             </li>
             <li className="text-[17px] font-medium">
-              <Link href="#">Portfolio</Link>
+              <Link href="/portfolio">Portfolio</Link>
             </li>
             <li className="text-[17px] font-medium">
-              <Link href="#">Contact Us</Link>
+              <Link href="/contat">Contact Us</Link>
+            </li>
+            <li className="text-[17px] font-medium">
+              <Link href="/faq">FAQs</Link>
             </li>
           </ul>
         </div>

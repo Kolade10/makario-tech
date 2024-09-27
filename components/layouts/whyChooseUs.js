@@ -74,7 +74,7 @@ const WhyChooseUs = () => {
                     </p>
                 </div>
                 <div className='w-[90%] lg:w-full m-auto'>
-                    <PrimartButton href='#' style='m-0 text-white lg:ml-[50px] ml-0'>Contact Us</PrimartButton>
+                    <PrimartButton href='/contact' style='m-0 text-white lg:ml-[50px] ml-0'>Contact Us</PrimartButton>
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@ const ContactDetails = () => {
     return (
         <div className='max-w-[100%] lg:px-[120px] py-[80px] lg:py-[120px] grid gap-[20px] m-auto grid gap-[20px]'>
             <p className="w-[90%] lg:w-full m-auto text-[14px] text-[#1e1d1d] tracking-[3px] font-medium">CONTACT US</p>
-            <div className='grid gap-[20px] justify-between lg:grid-flow-col items-start'>
+            <div className='grid gap-[60px] justify-between lg:grid-flow-col items-start'>
                 <div className='w-[90%] lg:w-full m-auto grid gap-[30px] content-start max-w-[645px]'>
                     <p className="max-w-[580px] text-[27px] lg:text-[56px] text-[#1e1d1d] font-bold leading-[28px] lg:leading-[48px]">Have questions? Get in touch!</p>
                     <p className="text-[16px] text-[#61666f] max-w-[450px]">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
@@ -45,8 +45,8 @@ const ContactDetails = () => {
                         className="lg:min-w-[500px] min-w-[350px] min-h-[50px] appearance-none placeholder-grey-500 outline-none py-[10px] border-gray-300 rounded-md text-base leading-normal"
                         />
                     </div>
-                    <div className='grid lg:grid-flow-col justify-start items-center gap-[30px]'>
-                        <PrimartButton href={'#'} style='text-white grid grid-flow-col items-center gap-[8px] !m-0'>
+                    <div className='grid lg:grid-flow-col justify-start items-center lg:gap-[30px] gap-[5px]'>
+                        <PrimartButton style='text-white grid grid-flow-col items-center gap-[8px] !m-0'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16"><path fill="#fcfcfc" d="M16 0L0 8l4.7 1.6L5 15l2.5-2.8L10 16zM7.5 10.4l4.3-5.9l-6.2 4.3l-3-1L14.2 2L9.7 13.8z"/></svg>
                             Get in Touch
                         </PrimartButton>
@@ -57,6 +57,7 @@ const ContactDetails = () => {
                     </div>
                 </form>
             </div>
+            <iframe className='w-full h-[300px] lg:h-[600px] border-0 mt-[30px] lg:mt-[60px]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.657684854352!2d3.511171775877255!3d6.437991024149299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf7d79d4cf8ef%3A0xca074d65da8ec0fa!2sSpacepad%20%7C%20Co%20Working%20Space%20And%20Serviced%20Private%20Office%20Space%20Lekki!5e0!3m2!1sen!2sng!4v1727428886238!5m2!1sen!2sng"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     );
 };

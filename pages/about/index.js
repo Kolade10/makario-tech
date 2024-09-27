@@ -7,6 +7,7 @@ import Sponsor from '@/components/layouts/sponsor';
 import AboutSection from '@/components/layouts/aboutPageSection';
 import PortfolioSection from '@/components/layouts/ourPortfolio';
 import GetQuote from '@/components/layouts/getQuote';
+import Testimonials from '@/components/layouts/testimonials';
 
 const About = () => {
     return (

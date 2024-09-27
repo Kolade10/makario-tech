@@ -47,7 +47,7 @@ const WhiteHeader = ()=>{
                         <div className={`bg-[#1e1d1d] h-[2px] ${isActive('/contact') ? 'w-full' : 'w-0'} group-hover:w-full transition-all duration-500`}></div>
                     </li>
                 </ul>
-                <PrimartButton href='#' style='hidden lg:block text-white'>Get a Quote</PrimartButton>
+                <PrimartButton href='/contact' style='hidden lg:block text-white'>Get a Quote</PrimartButton>
 
                 {/* Mobile Menu Icon */}
                 <button
