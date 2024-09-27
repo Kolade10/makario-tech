@@ -10,7 +10,7 @@ const AboutSection = () =>{
                 quality={100}
                 height={508}
                 width={441}
-                className="w-[90%] lg:w-[441px] m-auto"
+                className="w-[90%] h-full lg:w-[441px] m-auto"
                 />
                 <div className="grid gap-[30px] max-w-[560px]">
                     <p className="text-[14px] text-[#1e1d1d] tracking-[3px] font-medium ">ABOUT US</p>
