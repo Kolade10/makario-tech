@@ -9,6 +9,8 @@ import Hero from "@/components/layouts/hero";
 import WhatWeDo from "@/components/layouts/whatWeDo";
 import OurFingerprints from "@/components/layouts/ourFingerprints";
 import Contact from "@/components/layouts/contact";
+import Testimonials from "@/components/layouts/testimonials";
+import Sponsor from "@/components/layouts/sponsor";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,6 +30,8 @@ export default function Home() {
       <Hero/>
       <WhatWeDo/>
       <OurFingerprints/>
+      <Testimonials/>
+      <Sponsor/>
       <Contact/>
     </Shell>
   );
