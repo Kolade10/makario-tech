@@ -79,7 +79,7 @@ const WhiteHeader = ()=>{
 
                 {/* Mobile Drawer Menu */}
                 <div
-                className={`lg:hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-90 transform ${
+                className={`lg:hidden fixed top-0 left-0 w-full z-[50] h-full bg-black transform ${
                     menuOpen ? 'translate-y-0' : '-translate-y-full'
                 } transition-transform duration-500`}
                 >

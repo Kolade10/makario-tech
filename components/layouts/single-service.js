@@ -5,7 +5,7 @@ import Link from 'next/link';
 const SingleService = ({ service }) => {
 
     return (
-        <div className='h-[85vh] max-w-[90%] lg:max-w-[1440px] lg:px-[120px] lg:py-[60px] m-auto grid grid-flow-col items-center justify-center gap-[60px]'>
+        <div className='h-[85vh] max-w-[90%] lg:max-w-[1440px] lg:px-[120px] lg:py-[60px] m-auto grid lg:grid-flow-col items-center justify-center gap-[30px] lg:gap-[60px] pb-[40px] lg:pb-0'>
             <Image src={`/images/${service.image}`} alt='service' quality={100} width={500} height={480} />
             <div className='grid gap-[30px] content-start'>
                 <p className="max-w-[580px] text-[27px] lg:text-[56px] text-[#1e1d1d] font-bold leading-[48px]">{service.title}</p>

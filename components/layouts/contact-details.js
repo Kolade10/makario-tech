@@ -45,7 +45,7 @@ const ContactDetails = () => {
                         className="lg:min-w-[500px] min-w-[350px] min-h-[50px] appearance-none placeholder-grey-500 outline-none py-[10px] border-gray-300 rounded-md text-base leading-normal"
                         />
                     </div>
-                    <div className='grid lg:grid-flow-col justify-start items-center lg:gap-[30px] gap-[5px]'>
+                    <div className='grid justify-start items-center gap-[5px]'>
                         <PrimartButton style='text-white grid grid-flow-col items-center gap-[8px] !m-0'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16"><path fill="#fcfcfc" d="M16 0L0 8l4.7 1.6L5 15l2.5-2.8L10 16zM7.5 10.4l4.3-5.9l-6.2 4.3l-3-1L14.2 2L9.7 13.8z"/></svg>
                             Get in Touch

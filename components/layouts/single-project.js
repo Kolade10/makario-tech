@@ -30,15 +30,15 @@ const SingleProject = ({ project }) => {
         <div className='pb-[100px] max-w-[90%] lg:max-w-[1440px] m-auto lg:px-[120px]'>
             <div className='relative grid grid-cols-2 items-start justify-center gap-[51px]'>
                 <div className='grid gap-[30px] pt-[100px]'>
-                    <Image
-                        src={`/images/${project.image}`}
-                        alt='project'
-                        quality={100}
-                        width={693}
-                        height={480}
-                    />
+                    <p className='text-[35px] leading-[48px] text-[#1e1d1d] font-semibold'>{project.title}</p>
                     <div className='grid gap-[22px]'>
-                        <p className='text-[35px] leading-[48px] text-[#1e1d1d] font-semibold'>{project.title}</p>
+                        <Image
+                            src={`/images/${project.image}`}
+                            alt='project'
+                            quality={100}
+                            width={693}
+                            height={480}
+                        />
                         <p className='text-[17px] text-[#61666f]'>{project.description}</p>
                     </div>
                     <div className='grid gap-[10px]'>
