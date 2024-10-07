@@ -41,40 +41,21 @@ const WhyChooseUs = () => {
 
     return (
         <div className=' grid gap-[30px] lg:block items-center w-full'>
-            <div className='lg:float-left lg:w-[550px] justify-items-end lg:py-[200px] lg:pl-[250px] grid grid-flow-col gap-[20px] lg:lg:gap-[30px] justify-center items-center left-[15px] top-0 bottom-0'>
-                <div className='lg:w-[350px] w-[90%] m-auto'>
-                    <Image
-                    src='/images/cameras.png'
-                    alt='image'
-                    quality={100}
-                    width={350}
-                    height={667}
-                    className=' max-h-[667px] h-full'
-                    />
-                </div>
-                <div className='lg:w-[350px]'>
-                    <Image
-                    src='/images/cameras.png'
-                    alt='image'
-                    quality={100}
-                    width={350}
-                    height={667}
-                    className='max-h-[667px] h-full'
-                    />
-                </div>
-            </div>
-            <div className={` bg-[#337ab740] lg:h-[900px] py-[120px] lg:py-0  content-center items-center grid justify-center gap-[32px] `}>
-                <div className={`grid gap-[10px] lg:gap-[20px] max-w-[90%] lg:max-w-[530px] m-auto lg:ml-[50px] transition-opacity duration-500 ease-in-out ${fade ? 'opacity-100' : 'opacity-0'}`}>
-                    <p className="text-[14px] text-[#1e1d1d] tracking-[3px] font-semibold">WHY CHOOSE US</p>
-                    <p className="lg:max-w-[580px] text-[27px] lg:text-[56px] text-[#1e1d1d] font-bold leading-[24px] lg:leading-[48px]">
-                        {contentArray[currentIndex].title}
-                    </p>
-                    <p className="text-[16px] text-[#61666f]">
-                        {contentArray[currentIndex].description}
-                    </p>
-                </div>
-                <div className='w-[90%] lg:w-full m-auto'>
-                    <PrimartButton href='/contact' style='m-0 text-white lg:ml-[50px] ml-0'>Contact Us</PrimartButton>
+            <div className={` bg-[#337ab740] lg:h-[900px] py-[120px] lg:py-0  content-center items-center grid lg:grid-flow-col  justify-center gap-[32px] `}>
+                <Image src='/images/cameras.png' className='lg:w-[500px] lg:h-[500px] w-[80%] h-[300px] m-auto order-last lg:order-first' width={500} height={500} alt='why choose us' />
+                <div className='grid gap-[20px]'>
+                    <div className={`grid gap-[10px] lg:gap-[20px] max-w-[90%] lg:max-w-[530px] m-auto lg:ml-[50px] transition-opacity duration-500 ease-in-out ${fade ? 'opacity-100' : 'opacity-0'}`}>
+                        <p className="text-[14px] text-[#1e1d1d] tracking-[3px] font-semibold">WHY CHOOSE US</p>
+                        <p className="lg:max-w-[580px] text-[27px] lg:text-[56px] text-[#1e1d1d] font-bold leading-[24px] lg:leading-[48px]">
+                            {contentArray[currentIndex].title}
+                        </p>
+                        <p className="text-[16px] text-[#61666f]">
+                            {contentArray[currentIndex].description}
+                        </p>
+                    </div>
+                    <div className='w-[90%] lg:w-full m-auto'>
+                        <PrimartButton href='/contact' style='m-0 text-white lg:ml-[50px] ml-0'>Contact Us</PrimartButton>
+                    </div>
                 </div>
             </div>
         </div>

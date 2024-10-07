@@ -76,8 +76,8 @@ const Testimonials = () => {
       <Slider {...settings}>
         {testimonials.map((testimonial, index) => (
           <div key={index} className="px-[60px]">
-            <div className="bg-[#1e1d1d] p-[45px] shadow-md grid gap-[32px] min-h-[400px] content-between gap-[32px] mb-[25px]">
-              <svg xmlns="http://www.w3.org/2000/svg" className="text-[#337ab7]" width="45.34" height="32" viewBox="0 0 34 24"><path fill="currentColor" d="M2.4 24h7.2l4.8-9.6V0H0v14.4h7.2zm19.2 0h7.2l4.8-9.6V0H19.2v14.4h7.2z" /></svg>
+            <div className="group bg-[#1e1d1d] p-[45px] shadow-md grid gap-[32px] min-h-[400px] content-between gap-[32px] mb-[25px]">
+              <svg xmlns="http://www.w3.org/2000/svg" className="text-white group-hover:text-[#337ab7] transition-all duration-300" width="45.34" height="32" viewBox="0 0 34 24"><path fill="currentColor" d="M2.4 24h7.2l4.8-9.6V0H0v14.4h7.2zm19.2 0h7.2l4.8-9.6V0H19.2v14.4h7.2z" /></svg>
               <p className="text-[19px] text-[#fcfcfc] leading-[28px]">{testimonial.message}</p>
               <div className="grid grid-flow-col items-center gap-[20px] justify-start">
                 <div className="w-[70px] h-[70px] rounded-full bg-[#fcfcfc] grid items-center justify-center">
