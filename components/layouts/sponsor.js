@@ -2,7 +2,7 @@ import Image from "next/image";
 const Sponsor = () =>{
     return(
         // <div className="grid lg:grid-flow-col just5ify-between items-center mt-[40px]">
-            <div className="justify-between max-w-[90%] lg:max-w-[1440px] m-auto lg:px-[120px] flex flex-wrap lg:grid grid-flow-col gap-[30px] items-center">
+            <div className="justify-between max-w-[90%] lg:max-w-[1440px] m-auto lg:px-[120px] flex flex-wrap py-[100px] lg:grid grid-flow-col gap-[30px] items-center">
                 <Image
                 src='/images/logo-dummy.svg'
                 width={150}

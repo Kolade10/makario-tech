@@ -49,7 +49,7 @@ const OurFingerprints = () => {
     }, []);
 
     return (
-      <div className="grid lg:grid-cols-2 gap-[20px] lg:gap-0 items-center">
+      <div className="grid lg:grid-cols-2 gap-[20px] py-[60px] lg:py-0lg:gap-0 items-center">
         <Image
         src='/images/contact.png'
         alt="contact"
