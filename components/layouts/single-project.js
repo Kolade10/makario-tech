@@ -28,7 +28,7 @@ const SingleProject = ({ project }) => {
 
     return (
         <div className='pb-[100px] max-w-[90%] lg:max-w-[1440px] m-auto lg:px-[120px]'>
-            <div className='relative grid grid-cols-2 items-start justify-center gap-[51px]'>
+            <div className='relative grid lg:grid-cols-2 items-start justify-center gap-[51px]'>
                 <div className='grid gap-[30px] pt-[100px]'>
                     <p className='text-[35px] leading-[48px] text-[#1e1d1d] font-semibold'>{project.title}</p>
                     <div className='grid gap-[22px]'>
@@ -66,7 +66,7 @@ const SingleProject = ({ project }) => {
                         ))}
                     </div>
                 </div>
-                <div className='grid gap-[35px] content-start sticky top-0 pt-[100px]'>
+                <div className='grid gap-[35px] content-start sticky top-0 lg:pt-[100px]'>
                     <p className='text-[17px] text-[#61666f]'>{project.scope}</p>
                     <div className='grid gap-[20px]'>
                         <div className='grid grid-flow-col items-center justify-start gap-[30px]'>

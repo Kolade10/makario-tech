@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const AboutSection = () =>{
     return(
-        <div className="max-w-[90%] lg:max-w-[1440px] m-auto lg:px-[120px] py-[100px] grid gap-[100px]">
+        <div className="max-w-[90%] lg:max-w-[1440px] m-auto lg:px-[120px] py-[50px] lg:py-[100px] grid gap-[100px]">
             <div className="grid lg:grid-flow-col items-start content-start justify-between gap-[30px]">
                 <Image
                 src='/images/smart-lock.png'

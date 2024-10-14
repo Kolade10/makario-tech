@@ -151,7 +151,7 @@ const Faqs = () => {
                     />
                     <div className='grid content-start  max-w-[530px]'>
                         <div className='grid gap-[20px] pb-[60px] border-b-[1px]'>
-                            <p className="text-[14px] text-[#1e1d1d] tracking-[3px] font-semibold">FAQS</p>
+                            <p className="text-[14px] text-[#1e1d1d] tracking-[3px] font-medium">FAQS</p>
                             <p className="lg:max-w-[580px] text-[27px] lg:text-[56px] text-[#1e1d1d] font-bold leading-[24px] lg:leading-[48px]">{category.category}</p>
                         </div>
                         {category.questions.map((q, qIndex) => (
