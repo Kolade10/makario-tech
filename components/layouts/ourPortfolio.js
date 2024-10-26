@@ -16,7 +16,7 @@ export default function PortfolioSection({ textStyle, bodyText, borderColor }) {
 
     return (
         <div className={`w-[90%] lg:w-full m-auto grid lg:grid-flow-col justify-start  border-y-[1px] lg:px-[120px] ${borderColor}`}>
-            <div className={`lg:max-w-[500px] grid gap-[40px] text-[#fcfcfc] lg:gap-[120px] content-between py-[50px]  lg:border-r-[1px] ${textStyle} ${borderColor}`}>
+            <div className={`lg:max-w-[500px] grid gap-[40px] text-[#fcfcfc] lg:gap-[120px] content-between lg:py-[50px]  lg:border-r-[1px] ${textStyle} ${borderColor}`}>
                 <div className='grid gap-[8px] lg:gap-[20px]'>
                     <p className="text-[14px] tracking-[3px] font-medium ">OUR PORTFOLIO</p>
                     <p className="max-w-[580px] text-[27px] lg:text-[56px] font-bold leading-[48px]">Completed Projects</p>

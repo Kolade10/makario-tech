@@ -113,12 +113,12 @@ const WhiteHeader = ()=>{
                     <Link href='/service'>Services</Link>
                     </li>
                     <li onClick={toggleMenu} className="text-[#fcfcfc] text-[20px] font-semibold uppercase">
-                    <Link href='#'>Portfolio</Link>
+                    <Link href='/portfolio'>Portfolio</Link>
                     </li>
                     <li onClick={toggleMenu} className="text-[#fcfcfc] text-[20px] font-semibold uppercase">
-                    <Link href='#'>Contact Us</Link>
+                    <Link href='/contact'>Contact Us</Link>
                     </li>
-                    <PrimartButton href='#' style='text-white '>Get a Quote</PrimartButton>
+                    <PrimartButton href='/contact' style='text-white '>Get a Quote</PrimartButton>
                 </ul>
                 </div>
             </div>

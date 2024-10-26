@@ -4,7 +4,7 @@ import Link from "next/link"
 
 const Contact =() =>{
     return(
-        <div className="grid lg:grid-flow-col justify-between items-center gap-[50px] content-center py-[80px] lg:py-[120px] mb-[40px] lg:mb-0 lg:px-[120px] max-w-[90%] lg:max-w-[1440px] m-auto">
+        <div className="grid lg:grid-flow-col justify-center lg:justify-between items-center gap-[50px] content-center py-[80px] lg:py-[120px] mb-[40px] lg:mb-0 lg:px-[120px] max-w-[90%] lg:max-w-[1440px] m-auto">
             <div className="grid gap-[40px] max-w-[540px]">
                 <div className="grid gap-[5px] lg:gap-[30px]">
                     <p className="text-[14px] text-[#1e1d1d] tracking-[3px] font-medium ">CALL US</p>
