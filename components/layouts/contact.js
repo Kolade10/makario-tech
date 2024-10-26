@@ -29,7 +29,7 @@ const Contact =() =>{
                 quality={100}
                 width={515}
                 height={595}
-                className="h-[250px] lg:h-[595px] w-[218px] lg:w-full"
+                className="h-[250px] lg:h-[595px] w-[218px] lg:w-full object-cover"
                 />
                 <Image
                 src='/images/camera2.png'
@@ -37,7 +37,7 @@ const Contact =() =>{
                 quality={100}
                 width={396}
                 height={405}
-                className="absolute w-[205px] lg:w-[396px] h-[210px] lg:h-[477px] bottom-[-50px] left-[-60px] lg:left-[-120px]"
+                className="absolute w-[205px] lg:w-[396px] h-[210px] lg:h-[477px] bottom-[-50px] left-[-60px] lg:left-[-120px] object-cover"
                 />
             </div>
             

@@ -36,7 +36,7 @@ export default function PortfolioSection({ textStyle, bodyText, borderColor }) {
                             width={390}
                             height={490}
                             quality={100}
-                            className='w-full h-[225px] lg:h-[490px] hover:scale-105 transition-all duration-500 cursor-pointer'
+                            className='w-full h-[225px] lg:h-[490px] hover:scale-105 transition-all duration-500 cursor-pointer object-cover'
                         />
                         <p className={`text-[#fcfcfc] text-[18px] lg:text-[22px] font-semibold ${textStyle}`}>{project.title}</p>
                     </Link>

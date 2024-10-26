@@ -38,6 +38,7 @@ const SingleProject = ({ project }) => {
                             quality={100}
                             width={693}
                             height={480}
+                            className='object-cover'
                         />
                         <p className='text-[17px] text-[#61666f]'>{project.description}</p>
                     </div>
@@ -51,6 +52,7 @@ const SingleProject = ({ project }) => {
                                     quality={100}
                                     width={342}
                                     height={237}
+                                    className='object-cover'
                                 />
                             ))}
                         </div>
@@ -62,6 +64,7 @@ const SingleProject = ({ project }) => {
                                 quality={100}
                                 width={693}
                                 height={480}
+                                className='object-cover'
                             />
                         ))}
                     </div>

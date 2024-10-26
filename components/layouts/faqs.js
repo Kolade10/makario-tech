@@ -147,7 +147,7 @@ const Faqs = () => {
                         width={500}
                         height={687}
                         quality={100}
-                        className={`h-[500px] lg:h-[687px] object-cover w-[500px] ${categoryIndex % 2 !== 0 ? 'order-last' : ''}`}
+                        className={`h-[500px] lg:h-[687px] object-cover w-[500px] object-cover ${categoryIndex % 2 !== 0 ? 'order-last' : ''}`}
                     />
                     <div className='grid content-start  max-w-[530px]'>
                         <div className='grid gap-[20px] pb-[60px] border-b-[1px]'>

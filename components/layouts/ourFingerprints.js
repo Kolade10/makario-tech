@@ -56,7 +56,7 @@ const OurFingerprints = () => {
         quality={100}
         width={704}
         height={700}
-        className="w-full h-[300px] lg:h-[700px]"
+        className="w-full h-[300px] lg:h-[700px] object-cover"
         />
         <div className={` content-center items-center grid justify-center gap-[32px] `}>
           <div className={`grid gap-[10px] lg:gap-[20px] max-w-[90%] lg:max-w-[530px] m-auto lg:ml-[50px] transition-opacity duration-500 ease-in-out ${fade ? 'opacity-100' : 'opacity-0'}`}>

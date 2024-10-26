@@ -18,7 +18,7 @@ const ServiceProjectGrid = () => {
                             quality={100}
                             width={300}
                             height={300}
-                            className={`lg:w-[300px] ${index === 1 ? 'lg:h-[630px]' : 'lg:h-[300px]'}`}
+                            className={`lg:w-[300px] object-cover ${index === 1 ? 'lg:h-[630px]' : 'lg:h-[300px]'}`}
                         />
                         <div className='grid items-end content-end gap-[10px] p-3 absolute top-0 left-0 right-0 bottom-0 bg-white lg:scale-50 scale-90 group-hover:scale-90 lg:opacity-0 group-hover:opacity-[100%] transition-all duration-300 z-0'>
                             <p className='text-[#1e1d1d] text-[24px] font-semibold'>{project.client}</p>
@@ -37,7 +37,7 @@ const ServiceProjectGrid = () => {
                                 quality={100}
                                 width={300}
                                 height={300}
-                                className='lg:w-[630px] lg:h-[630px]'
+                                className='lg:w-[630px] lg:h-[630px] object-cover'
                             />
                             <div className='grid items-end content-end gap-[10px] p-3 absolute top-0 left-0 right-0 bottom-0 bg-white lg:scale-50 scale-90 group-hover:scale-90 lg:opacity-0 group-hover:opacity-[100%] transition-all duration-300 z-0'>
                                 <p className='text-[#1e1d1d] text-[24px] font-semibold'>{project.client}</p>
@@ -54,7 +54,7 @@ const ServiceProjectGrid = () => {
                                     quality={100}
                                     width={300}
                                     height={300}
-                                    className='lg:w-[300px] lg:h-[300px]'
+                                    className='lg:w-[300px] lg:h-[300px] object-cover'
                                 />
                                 <div className='grid items-end content-end gap-[10px] p-3 absolute top-0 left-0 right-0 bottom-0 bg-white lg:scale-50 scale-90 group-hover:scale-90 lg:opacity-0 group-hover:opacity-[100%] transition-all duration-300 z-0'>
                                     <p className='text-[#1e1d1d] text-[24px] font-semibold'>{project.client}</p>
@@ -72,7 +72,7 @@ const ServiceProjectGrid = () => {
                             quality={100}
                             width={300}
                             height={300}
-                            className='w-full h-[300px]'
+                            className='w-full h-[300px] object-cover'
                         />
                         <div className='grid items-end content-end gap-[10px] p-3 absolute top-0 left-0 right-0 bottom-0 bg-white lg:scale-50 scale-90 group-hover:scale-90 lg:opacity-0 group-hover:opacity-[100%] transition-all duration-300 z-0'>
                             <p className='text-[#1e1d1d] text-[24px] font-semibold'>{project.client}</p>
