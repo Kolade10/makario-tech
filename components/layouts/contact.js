@@ -24,7 +24,7 @@ const Contact =() =>{
             </div>
             <div className="relative max-w-[90%] lg:max-w-full m-auto">
                 <Image
-                src='/images/cameras.png'
+                src='/images/call-us.png'
                 alt="camera"
                 quality={100}
                 width={515}
@@ -32,7 +32,7 @@ const Contact =() =>{
                 className="h-[250px] lg:h-[595px] w-[218px] lg:w-full object-cover"
                 />
                 <Image
-                src='/images/camera2.png'
+                src='/images/call-us-2.png'
                 alt="camera"
                 quality={100}
                 width={396}

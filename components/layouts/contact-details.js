@@ -6,7 +6,7 @@ const ContactDetails = () => {
     return (
         <div className='max-w-[100%] lg:px-[120px] py-[80px] lg:py-[120px] grid gap-[20px] m-auto grid gap-[20px]'>
             <p className="w-[90%] lg:w-full m-auto text-[14px] text-[#1e1d1d] tracking-[3px] font-medium">CONTACT US</p>
-            <div className='grid gap-[60px] justify-center w-screen lg:justify-between lg:grid-flow-col items-start'>
+            <div className='grid gap-[60px] justify-center lg:w-full w-screen lg:justify-between lg:grid-flow-col items-start'>
                 <div className='w-[90%] lg:w-full m-auto grid gap-[30px] content-start max-w-[645px]'>
                     <p className="max-w-[580px] text-[27px] lg:text-[56px] text-[#1e1d1d] font-bold leading-[28px] lg:leading-[48px]">Have questions? Get in touch!</p>
                     <p className="text-[16px] text-[#61666f] max-w-[450px]">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>

@@ -42,7 +42,7 @@ const WhyChooseUs = () => {
     return (
         <div className=' grid gap-[30px] lg:block items-center w-full'>
             <div className={` bg-[#337ab740] lg:h-[900px] py-[120px] lg:py-0  content-center items-center grid lg:grid-flow-col  justify-center gap-[32px] `}>
-                <Image src='/images/cameras.png' className='lg:w-[500px] lg:h-[500px] w-[80%] h-[300px] m-auto order-last lg:order-first object-cover' width={500} height={500} alt='why choose us' />
+                <Image src='/images/why-choose.png' className='lg:w-[700px] lg:h-[800px] w-[80%] h-[300px] m-auto order-last lg:order-first object-cover' width={700} height={800} alt='why choose us' />
                 <div className='grid gap-[20px]'>
                     <div className={`grid gap-[10px] lg:gap-[20px] max-w-[90%] lg:max-w-[530px] m-auto lg:ml-[50px] transition-opacity duration-500 ease-in-out ${fade ? 'opacity-100' : 'opacity-0'}`}>
                         <p className="text-[14px] text-[#1e1d1d] tracking-[3px] font-medium">WHY CHOOSE US</p>

@@ -51,12 +51,12 @@ const OurFingerprints = () => {
     return (
       <div className="grid lg:grid-cols-2 gap-[20px] py-[60px] lg:py-0lg:gap-0 items-center">
         <Image
-        src='/images/contact.png'
+        src='/images/highlight.svg'
         alt="contact"
         quality={100}
         width={704}
-        height={700}
-        className="w-full h-[300px] lg:h-[700px] object-cover"
+        height={800}
+        className="w-full h-[300px] lg:h-[800px] object-cover"
         />
         <div className={` content-center items-center grid justify-center gap-[32px] `}>
           <div className={`grid gap-[10px] lg:gap-[20px] max-w-[90%] lg:max-w-[530px] m-auto lg:ml-[50px] transition-opacity duration-500 ease-in-out ${fade ? 'opacity-100' : 'opacity-0'}`}>

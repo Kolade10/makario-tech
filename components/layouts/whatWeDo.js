@@ -14,7 +14,7 @@ const WhatWeDo = () => {
             <CustomCursorContainer>
                 <div className="grid grid-flow-col max-w-full overflow-x-scroll custom-scrollbar justify-center lg:justify-start gap-y-[20px] pb-[30px]">
                     {servicesArray.map(service => (
-                        <div key={service.id} className="grid gap-[20px] content-between w-[250px] lg:pr-[50px] lg:mr-[50px] lg:border-r-[1px]">
+                        <div key={service.id} className="grid gap-[5px] content-between w-[250px] lg:pr-[50px] lg:mr-[50px] lg:border-r-[1px]">
                             <div className="text-[#337ab7]">
                                 <div dangerouslySetInnerHTML={{ __html: service.svg }} />
                             </div>
