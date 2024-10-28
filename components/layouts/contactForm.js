@@ -4,10 +4,10 @@ import PrimartButton from "../common/primaryButton";
 
 const ContactForm = () => {
   return (
-    <div className="grid lg:grid-cols-2 gap-[30px] lg:gap-0 w-screen  lg:justify-between items-center m-auto">
+    <div className="grid lg:grid-cols-2 gap-[30px] lg:gap-0 lg:w-full w-screen  lg:justify-between items-center m-auto">
         <div className="bg-[url('/images/contact.png')] bg-cover bg-center bg-no-repeat w-full h-[840px]"></div>
         <div className="grid lg:px-[120px] items-center gap-[30px] max-w-[90%] lg:max-w-full m-auto">
-            <div className="grid gap-[20px">
+            <div className="grid gap-[20px]">
                 <p className="text-[14px] text-[#1e1d1d] tracking-[3px] font-medium">CONTACT US</p>
                 <p className="max-w-[580px] text-[27px] lg:text-[56px] text-[#1e1d1d] font-bold leading-[48px]">Let&#39;s work together. <br/>Get the best offer!</p>
             </div>
